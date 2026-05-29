@@ -91,8 +91,8 @@ List<Ticket> dummyTickets = [
     status: 'Resolved',
     createdAt: DateTime.now().subtract(const Duration(days: 3)),
     messages: [
-      Message(id: 'm3', text: 'I was overcharged by $10.', isBot: false, timestamp: DateTime.now().subtract(const Duration(days: 3))),
-      Message(id: 'm4', text: 'I have reviewed your invoice. We have issued a refund of $10 to your original payment method. Is there anything else?', isBot: true, timestamp: DateTime.now().subtract(const Duration(days: 2))),
+      Message(id: 'm3', text: 'I was overcharged by \\$10.', isBot: false, timestamp: DateTime.now().subtract(const Duration(days: 3))),
+      Message(id: 'm4', text: 'I have reviewed your invoice. We have issued a refund of \\$10 to your original payment method. Is there anything else?', isBot: true, timestamp: DateTime.now().subtract(const Duration(days: 2))),
     ],
   ),
 ];
